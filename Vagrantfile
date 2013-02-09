@@ -36,8 +36,8 @@ Vagrant::Config.run do |config|
         },
         "wordpress" => {
           "dir" => "/home/vagrant/www",
-          "url" => "http://br.wordpress.org/wordpress-3.5-pt_BR.tar.gz",
-          "lang" => "pt_BR",
+          "url" => "http://wordpress.org/wordpress-3.5.tar.gz",
+          "lang" => "en_US",
           "debug" => "false",
           "db" => {
             "database" => "wordpressdb",
